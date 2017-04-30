@@ -12,9 +12,9 @@ The root **project** repository contains all Epics, Stories, and project level t
 
 * Issues are maintained (mostly) in the root repository which will have:
   * DTA standard milestones (discovery, alpha, beta, live).  Post go live milestones will be used to manage ongoing releases with milestone names reflecting the major.minor release version.  For example “release 1.2”.
-  * A set of standard tags: “epic”, “story”, “task”, “bug”, “question”.  It is also useful to have a tag for each role in stories so that it’s quick to filter “show me the stories that impact <role>”.  An issue can have any number of tags.  
+  * A set of standard tags: “epic”, “story”, “task”, “bug”, “question”.  It is also useful to have a tag for each role in stories so that it’s quick to filter “show me the stories that impact [role]”.  An issue can have any number of tags.  
   * Epics (very high level groups of features) recorded as an issue with tag “epic” without a milestone.  Epics are closed when the full scope of stories are defined.
-  * All Stories are recorded as issues with tag “story” and an associated milestone.   All stories must follow the agile story structure “As a <role>, I need a <feature> so that I can <outcome>.   
+  * All Stories are recorded as issues with tag “story” and an associated milestone.   All stories must follow the agile story structure “As a {role], I need a {feature} so that I can {outcome}".   
   * Stories are closed when a full set of testable scenarios are defined and the corresponding BDD tests are passing in the lowest environment.  A story can be closed before production release because the release indicator is the milestone.
   * Every story should also reference the epic of which it is a part (eg “Epic #12”).  The references from the story will automatically display against the epic – which is a nice way to show the scope of the epic in terms of included stories.
   * Any number of comments will typically be appended to the story as business and technical stakeholders interact to elaborate the story.  The story ticket is the formal record of these conversations.  So any slack /skype chat that impacts a story should be summarised as a comment against the story.
