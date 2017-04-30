@@ -2,15 +2,15 @@
 
 All GoSource developers will observe the following coding standards
 
-# General
+## General
 
 
-# Python
+## Python
 
 
-# Java
+## Java
 
 
-# Javascript
+## Javascript
 
 
