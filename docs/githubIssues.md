@@ -12,7 +12,7 @@ The root **project** repository contains all Epics, Stories, and project level t
 
 * Issues are maintained (mostly) in the root repository which will have:
   * DTA standard milestones (discovery, alpha, beta, live).  Post go live milestones will be used to manage ongoing releases with milestone names reflecting the major.minor release version.  For example “release 1.2”.
-  * A set of standard tags: “epic”, “story”, “task”, “bug”, “question”.  It is also useful to have a tag for each role in stories so that it’s quick to filter “show me the stories that impact [role]”.  An issue can have any number of tags.  
+  * A set of [standard tags](https://github.com/gs-gs/sample-project/labels) colour coded - blue stuff is to-do, green stuff is who you are doing it for, yellow stuff is where you are doing it, red stuff is panic, grey stuff is not very interesting yet.
   * Epics (very high level groups of features) recorded as an issue with tag “epic” without a milestone.  Epics are closed when the full scope of stories are defined.
   * All Stories are recorded as issues with tag “story” and an associated milestone.   All stories must follow the agile story structure “As a {role], I need a {feature} so that I can {outcome}".   
   * Stories are closed when a full set of testable scenarios are defined and the corresponding BDD tests are passing in the lowest environment.  A story can be closed before production release because the release indicator is the milestone.
