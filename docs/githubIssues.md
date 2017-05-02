@@ -11,7 +11,7 @@ The root **project** repository contains all Epics, Stories, and project level t
   * All issues dragged onto the Kanban must have an assignee (apart from “backlog”).
 
 * Issues are maintained (mostly) in the root repository which will have:
-  * DTA standard milestones (discovery, alpha, beta, live).  Post go live milestones will be used to manage ongoing releases with milestone names reflecting the major.minor release version.  For example “release 1.2”.
+  * [standard milestones](https://github.com/gs-gs/sample-project/milestones?direction=asc&sort=due_date&state=open) reflecting delivery phases defined by the [DTA Servie Standard](https://www.dta.gov.au/standard/service-design-and-delivery-process/).  Post go live milestones will be used to manage ongoing releases with milestone names reflecting the major.minor release version.  For example “release 1.2”.
   * A set of [standard tags](https://github.com/gs-gs/sample-project/labels) colour coded - blue stuff is to-do, green stuff is who you are doing it for, yellow stuff is where you are doing it, red stuff is panic, grey stuff is not very interesting yet.
   * Epics (very high level groups of features) recorded as an issue with tag “epic” without a milestone.  Epics are closed when the full scope of stories are defined.
   * All Stories are recorded as issues with tag “story” and an associated milestone.   All stories must follow the agile story structure “As a {role], I need a {feature} so that I can {outcome}".   
@@ -19,7 +19,7 @@ The root **project** repository contains all Epics, Stories, and project level t
   * Every story should also reference the epic of which it is a part (eg “Epic #12”).  The references from the story will automatically display against the epic – which is a nice way to show the scope of the epic in terms of included stories.
   * Any number of comments will typically be appended to the story as business and technical stakeholders interact to elaborate the story.  The story ticket is the formal record of these conversations.  So any slack /skype chat that impacts a story should be summarised as a comment against the story.
 
-## Componenet Level Views
+## Component Level Views
 
 Each project will have one or more repositories for each separately deployable component.  This is usually the focus areas for a specific developer.  The component repositories contain the specific techncial tasks that will implement stories and contain any bugs that are specific to the component.
 
