@@ -9,6 +9,7 @@ The root **project** repository contains all Epics, Stories, and project level t
 * One organisation level GitHub “project” will be used for scrum/Kanban style delivery management of each DIBP product and will have the same name as the product (eg “appointments”.  Although github allows projects at either org or repository level, org level projects are preferred because they can aggregate issues from multiple repos.
   * The Kanban columns will typically be “backlog”, “not-started”, “in-progress”, “done”.
   * All issues dragged onto the Kanban must have an assignee (apart from “backlog”).
+  * issues are arranged vertically in priority order with most urgent at the top.
 
 * Issues are maintained (mostly) in the root repository which will have:
   * [standard milestones](https://github.com/gs-gs/sample-project/milestones?direction=asc&sort=due_date&state=open) reflecting delivery phases defined by the [DTA Servie Standard](https://www.dta.gov.au/standard/service-design-and-delivery-process/).  Post go live milestones will be used to manage ongoing releases with milestone names reflecting the major.minor release version.  For example “release 1.2”.
