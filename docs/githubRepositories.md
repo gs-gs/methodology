@@ -32,7 +32,15 @@ In no circumstances should separately deployable units be placed in the same bra
 
 ## Making Commits
 
-As implied by the github team roles and permission, the GoSource practice is that only customer stuff or onsite security cleared contractors can commit to master.  Therefore all other developers must work in local clones and make pull requsts to commit their code to master.  Aside from the security benefits, this is good working practice for distributed teams in any case.  
+As implied by the github team roles and permission, the GoSource practice is that only customer stuff or onsite security cleared contractors can commit to master.  Therefore all other developers must work in local clones and make pull requsts to commit their code to master.  Aside from the security benefits, this is good working practice for distributed teams in any case.
+
+### General commit rules
+
+* please use short and descriptive commit messages [(nice guide)](https://chris.beams.io/posts/git-commit/). General rule - person with subject area knowledge shouldn't go inside the commit to understand what's been done.
+* feel free to use rebase techniques in local forks before your commits are merged to the upstream
+* while using GitHub configure your local git installation to pass correct username/email
+* commits signature usage is encouraged, but still optional
+* avoid merge commits when possible (use `git pull --rebase` or `git pull --ff-only` locally); rebasing the branch before merging to master may help as well.
 
 ## Open Source 
 
