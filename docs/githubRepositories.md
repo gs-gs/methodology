@@ -46,5 +46,5 @@ As implied by the github team roles and permission, the GoSource practice is tha
 
 All repositories will be private (ie not visible to the general public) and the code is by default owned by the customer and not open source.  However, there are cases where the customer will want to contribute a product to open source and/or use an existing open source component.
 * To contribute to the open source community, the customer will maintain a separate GitHub organisation and will clone any private repos that will be contributed to the dedicated open source github organisation.  This separation reduces risk of inadvertent open publishing and means that issues and discussions created during internal product development do not need to be published.
-* To consume an open source product, the customer will clone the product to an internal repository of the same name.   This means that DIBP can subsequently control deployable versions without risk of unexpected new contributions affecting DIBP products.
+* To consume an open source product, the customer will clone the product to an internal repository of the same name.   This means that the customer can subsequently control deployable versions without risk of unexpected new contributions affecting customer products.
 
