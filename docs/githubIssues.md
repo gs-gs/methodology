@@ -12,7 +12,7 @@ The root **project** repository contains all Epics, Stories, and project level t
   * issues are arranged vertically in priority order with most urgent at the top.
 
 * Issues are maintained (mostly) in the root repository which will have:
-  * [standard milestones](https://github.com/gs-gs/sample-project/milestones?direction=asc&sort=due_date&state=open) reflecting delivery phases defined by the [DTA Servie Standard](https://www.dta.gov.au/standard/service-design-and-delivery-process/).  Post go live milestones will be used to manage ongoing releases with milestone names reflecting the major.minor release version.  For example “release 1.2”.
+  * [standard milestones](https://github.com/gs-gs/sample-project/milestones?direction=asc&sort=due_date&state=open) reflecting delivery phases defined by the [DTA Service Standard](https://www.dta.gov.au/standard/service-design-and-delivery-process/).  Post go live milestones will be used to manage ongoing releases with milestone names reflecting the major.minor release version.  For example “release 1.2”.
   * A set of [standard tags](https://github.com/gs-gs/sample-project/labels) colour coded - blue stuff is to-do, green stuff is who you are doing it for, yellow stuff is where you are doing it, red stuff is panic, grey stuff is not very interesting yet.
   * Epics (very high level groups of features) recorded as an issue with tag “epic” without a milestone.  Epics are closed when the full scope of stories are defined.
   * All Stories are recorded as issues with tag “story” and an associated milestone.   All stories must follow the agile story structure “As a {role], I need a {feature} so that I can {outcome}".   
