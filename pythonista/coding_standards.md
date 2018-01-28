@@ -29,7 +29,6 @@ We use a very particular repository structure because it is part of our CI/CD co
 Note that for python code, that you will always need:
 
  * a `manage.py` that behaves like a django manage.py file.
-   TODO: link to the flask wrapper boilerplate.
  * a package named after the product, so any product-specific app gets
    imported as import productname.appname (not import appname) - to keep
    the global namespace clean
