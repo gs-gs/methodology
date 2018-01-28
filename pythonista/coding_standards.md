@@ -17,7 +17,7 @@ Another interesting thing about PEP8 is that it is convenient for us to automati
 
 For django projects, developers should be aware of the [django style guide](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/) and consider it an important guideline. You can deviate from it in places, if you have a good reason to. But frequent deviation is considered a "bad smell" - really, you should mostly follow it most of the time. 
 
-We do not currently have a convenient way to test Django Coding Standards into our CI/CD pipeline, so voilatiobs are not considerd bugs (yes, we are aware of [django-lint](https://chris-lamb.co.uk/projects/django-lint) but have not integrated it into our process, yet).
+We do not currently have a convenient way to test Django Coding Standards into our CI/CD pipeline, so voilations are not considerd bugs (yes, we are aware of [django-lint](https://chris-lamb.co.uk/projects/django-lint) but have not integrated it into our process, yet).
 
 
 # Repository Structure
@@ -38,5 +38,3 @@ Note that for python code, that you will always need:
    package
 
 Sometime it's also good to have a `docker-compose.yaml` that will run up the system for local development (with Dockerfile etc). 
-
-
